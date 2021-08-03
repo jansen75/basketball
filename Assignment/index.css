@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(180deg, blue, red);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+hr {
+  width: 90%;
+  background-color: #FFC0CB;
+  box-shadow:
+  0 0 4px #FFC0CB,
+  0 0 9px #FFC0CB,
+  0 0 17px #FFC0CB,
+  0 0 25px #FFC0CB,
+  0 0 38px #FFC0CB,
+  0 0 50px #FFC0CB,
+  0 0 65px #FFC0CB;
+  height: 3px;
+
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  text-align: center;
+  font-size: 27px;
+  line-height: 65px;
+}
+
+button {
+  display: inline-block;
+  margin-left: 75px;
+  margin-right: 70px;
+  font-size: 32px;
+  border-radius: 15px;
+  border: 4px solid	#4B0082;
+  width: 150px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  background-image: linear-gradient(to right, #ff7e5f 0%, #feb47b  51%, #ff7e5f  100%);
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-family: sans-serif;
+    background-image: linear-gradient(180deg, blue, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  hr {
+    width: 90%;
+    background-color: #FFC0CB;
+    box-shadow:
+    0 0 4px #FFC0CB,
+    0 0 9px #FFC0CB,
+    0 0 17px #FFC0CB,
+    0 0 25px #FFC0CB,
+    0 0 38px #FFC0CB,
+    0 0 50px #FFC0CB,
+    0 0 65px #FFC0CB;
+    height: 3px;
+
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+  }
+
+  button {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 4px solid	#4B0082;
+    width: 85px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    background-image: linear-gradient(to right, #ff7e5f 0%, #feb47b  51%, #ff7e5f  100%);
+
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+
+  }
+
+  button:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+  }
+
+  img {
+    height: 210px;
+    width: 230px;
+  }
+
+}

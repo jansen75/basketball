@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #000066 0%, #ff6600 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+hr {
+  width: 90%;
+  background-color: orange;
+  box-shadow:
+  0 0 4px #fff,
+  0 0 9px #fff,
+  0 0 17px orange,
+  0 0 25px orange,
+  0 0 38px orange,
+  0 0 50px orange,
+  0 0 65px orange;
+  height: 3px;
+
+}
+
+button {
+  display: inline-block;
+  margin-left: 75px;
+  margin-right: 70px;
+  font-size: 32px;
+  border-radius: 15px;
+  border: 4px solid	#FA8072;
+  width: 150px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  background-image: linear-gradient(to right, #F3904F 0%, #3B4371  51%, #F3904F  100%);
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+  margin-top: 1px;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+textarea {
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.button {
+  margin-left: 270px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-left: 21em;
+  margin-top: 2em;
+  padding: 50px;
+  width: 45em;
+  background: rgb(101,34,195);
+  background: linear-gradient(0deg, rgba(101,34,195,1) 1%, rgba(225,154,3,1) 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 2rem rgba(0,0,0,.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.displayinput {
+  float: left;
+  margin-right: 10px;
+  margin-left: 82px;
+  margin-bottom: 45px;
+  width: 620px;
+  height: 280px;
+  background-color: orange;
+  border-radius: 20px;
+  word-wrap: break-word;
+}
+
+caption {
+  font-size: 70px;
+  font-style: oblique;
+}
+
+table {
+  margin-left: 1.8em;
+  text-align: center;
+  width: 92%;
+  background-color: #00CED1;
+  font-size: 2em;
+}
+
+table, th, td {
+  border: 6px solid white;
+}
+
+a {
+  color: #FFD700;
+}
+
+a:hover {
+  color: #0066ff;
+  transition: 0.7s;
+}

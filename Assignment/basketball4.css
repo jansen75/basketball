@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(180deg, #DB7093, #87CEFA);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+hr {
+  width: 90%;
+  background-color: #FFC0CB;
+  box-shadow:
+  0 0 4px #fff,
+  0 0 9px #fff,
+  0 0 17px #FFC0CB,
+  0 0 25px #FFC0CB,
+  0 0 38px #FFC0CB,
+  0 0 50px #FFC0CB,
+  0 0 65px #FFC0CB;
+  height: 3px;
+}
+
+table, th, td {
+  font-size: 40px;
+  border: 6px solid white;
+  line-height: 90px;
+  text-align: center;
+}
+
+caption {
+  font-size: 70px;
+}
+
+a {
+  color: #ffcc33;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #b30086;
+  transition: 0.7s;
+}
+
+.img {
+  font-size: 70px;
+  text-align: center;
+  font-style: italic;
+}
+
+div2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 70px;
+
+}
+
+div3 {
+  font-size: 70px;
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+button {
+  display: inline-block;
+  margin-left: 75px;
+  margin-right: 70px;
+  font-size: 32px;
+  border-radius: 15px;
+  border: 4px solid	#87CEFA;
+  width: 150px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  background-image: linear-gradient(to right, #D66D75 0%, #E29587  51%, #D66D75  100%);
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
